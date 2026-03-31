@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/pmi-ambulance-ufe
+- ../../../apps/pmi-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/xmikova/ambulance-webapi//deployments/kustomize/components/mongodb
