@@ -12,7 +12,7 @@ labels:
 
 resources:
 - ../../../apps/pmi-ambulance-ufe
-
+- ../../../apps/pmi-ambulance-webapi
 
 components:
 - ../../../components/version-release
