@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 # check the version is up-to-date
-- https://github.com/cert-manager/cert-manager/releases/download/v1.20.2/cert-manager.yaml
+- https://github.com/cert-manager/cert-manager/releases/download/v1.18.2/cert-manager.yaml
 - development.issuer.yaml
 - lets-encrypt.issuer.yaml
 
