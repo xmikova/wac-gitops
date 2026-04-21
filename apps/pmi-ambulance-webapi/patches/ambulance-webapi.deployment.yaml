@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pmdl-pharmacy-webapi
+  name: pmi-ambulance-webapi
 spec:
   template:
     spec:
@@ -9,6 +9,6 @@ spec:
         - name: openapi-ui
           env:
             - name: URL
-              value: /pmdl-openapi
+              value: /pmi-openapi
             - name: BASE_URL
-              value: /pmdl-openapi-ui
+              value: /pmi-openapi-ui

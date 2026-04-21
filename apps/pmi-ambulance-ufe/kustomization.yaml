@@ -10,5 +10,5 @@ resources:
 
 labels:
 - pairs:
-    app.kubernetes.io/component: pmdl-pharmacy-ufe
+    app.kubernetes.io/component: pmi-ambulance-ufe
     wac-fiit.github.io/component: frontend

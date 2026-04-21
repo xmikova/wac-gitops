@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
-- name: xmikova/wac-be
-  newName: xmikova/wac-be # {"$imagepolicy":  "wac-hospital:pharmacy-webapi:name"}
-  newTag: main.20260331.1118 # {"$imagepolicy": "wac-hospital:pharmacy-webapi:tag"}
-- name: xmikova/wac-fe
-  newName: xmikova/wac-fe # {"$imagepolicy":  "wac-hospital:pharmacy-ufe:name"}
-  newTag: main.20260407.1725 # {"$imagepolicy": "wac-hospital:pharmacy-ufe:tag"}
+- name: xmikova/ambulance-wl-webapi
+  newName: xmikova/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main.20260331.1118 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+- name: xmikova/ambulance-ufe
+  newName: xmikova/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
+  newTag: main.20260407.1725 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}

@@ -1,9 +1,0 @@
-apiVersion: polyfea.github.io/v1alpha1
-kind: MicroFrontend
-metadata:
-  name: pmdl-pharmacy-ufe
-spec:
-  frontendClass: md-shell
-  service:
-    name: pmdl-pharmacy-ufe
-  modulePath: build/pharmacy-ufe.esm.js # update this to match the actual Stencil output filename

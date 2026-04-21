@@ -4,7 +4,7 @@ kind: Kustomization
 labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
-    app.kubernetes.io/name: pmdl-pharmacy
+    app.kubernetes.io/name: pmi-ambulance-wl
 
 namespace: wac-hospital
 
