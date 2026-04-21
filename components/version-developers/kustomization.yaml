@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: xmikova/wac-be
   newName: xmikova/wac-be # {"$imagepolicy":  "wac-hospital:pharmacy-webapi:name"}
-  newTag: main.20260331.1118 # {"$imagepolicy": "wac-hospital:pharmacy-webapi:tag"}
+  newTag: main.20260421.2029 # {"$imagepolicy": "wac-hospital:pharmacy-webapi:tag"}
 - name: xmikova/wac-fe
   newName: xmikova/wac-fe # {"$imagepolicy":  "wac-hospital:pharmacy-ufe:name"}
-  newTag: main.20260407.1725 # {"$imagepolicy": "wac-hospital:pharmacy-ufe:tag"}
+  newTag: main.20260421.2048 # {"$imagepolicy": "wac-hospital:pharmacy-ufe:tag"}
