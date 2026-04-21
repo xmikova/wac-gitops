@@ -13,10 +13,10 @@ resources:
     - install.kustomization.yaml
     - secrets.kustomization.yaml
     - git-repository.yaml
-    - ambulance-ufe.image-repository.yaml
-    - ambulance-ufe.image-policy.yaml
-    - ambulance-webapi.image-repository.yaml
-    - ambulance-webapi.image-policy.yaml
+    - pharmacy-ufe.image-repository.yaml
+    - pharmacy-ufe.image-policy.yaml
+    - pharmacy-webapi.image-repository.yaml
+    - pharmacy-webapi.image-policy.yaml
     - image-update-automation.yaml
 
 patches:

@@ -1,11 +1,12 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: pmi-ambulance-webapi
+  name: pmdl-pharmacy-ufe
 spec:
-  type: NodePort
+  selector:
+    pod: pmdl-pharmacy-ufe-label
   ports:
   - name: http
     protocol: TCP
     port: 80
-    nodePort: 30081
+    targetPort: http

@@ -10,4 +10,4 @@ spec:
   secretRef:
     name: repository-pat #pre private repository, ak je verejny, tento blok môžeme vynechat
   timeout: 1m0s
-  url: https://github.com/xmikova/ambulance-gitops
+  url: https://github.com/xmikova/wac-gitops

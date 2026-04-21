@@ -1,7 +1,7 @@
 apiVersion: gateway.networking.k8s.io/v1
 kind: HTTPRoute
 metadata:
-  name: pmi-ambulance-webapi
+  name: pmdl-pharmacy-webapi
 spec:
   parentRefs:
     - name: wac-hospital-gateway
@@ -12,7 +12,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /pmi-api
+            value: /pmdl-api
       filters:
         - type: URLRewrite
           urlRewrite:
@@ -22,21 +22,21 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: pmi-ambulance-webapi
+          name: pmdl-pharmacy-webapi
           port: 80
     - matches:
         - path:
             type: PathPrefix
-            value: /pmi-openapi-ui
+            value: /pmdl-openapi-ui
       backendRefs:
         - group: ""
           kind: Service
-          name: pmi-openapi-ui
+          name: pmdl-openapi-ui
           port: 80
     - matches:
         - path:
             type: Exact
-            value: /pmi-openapi
+            value: /pmdl-openapi
       filters:
       - type: URLRewrite
         urlRewrite:
@@ -46,5 +46,5 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: pmi-ambulance-webapi
+          name: pmdl-pharmacy-webapi
           port: 80
