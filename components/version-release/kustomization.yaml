@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: xmikova/wac-fe
   newName: xmikova/wac-fe
-  newTag: 1.2.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: latest
 - name: xmikova/wac-be
   newName: xmikova/wac-be
-  newTag: 1.1.0
+  newTag: latest
