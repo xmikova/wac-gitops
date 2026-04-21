@@ -3,9 +3,9 @@ kind: Kustomization
 
 labels:
   - pairs:
-      app.kubernetes.io/name: pmi-apps
+      app.kubernetes.io/name: pmdl-apps
       app.kubernetes.io/instance: release
       app.kubernetes.io/version: "1.0.0"
-      wac-fiit.github.io/project: pmi-ambulance-wl
+      wac-fiit.github.io/project: pmdl-pharmacy
 resources:
   - gitops

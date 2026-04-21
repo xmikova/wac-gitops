@@ -6,14 +6,14 @@ namespace: wac-hospital
 labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
-    app.kubernetes.io/name: pmi-ambulance-wl
-    wac-fiit.github.io/project: pmi-ambulance-wl
+    app.kubernetes.io/name: pmdl-pharmacy
+    wac-fiit.github.io/project: pmdl-pharmacy
   includeSelectors: true
   includeTemplates: true
 
 resources:
-- ../../../apps/pmi-ambulance-ufe
-- ../../../apps/pmi-ambulance-webapi
+- ../../../apps/pmdl-pharmacy-ufe
+- ../../../apps/pmdl-pharmacy-webapi
 
 components:
 - ../../../components/version-release
