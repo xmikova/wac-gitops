@@ -6,4 +6,4 @@ images:
   newTag: main.20260421.2046 # {"$imagepolicy": "wac-hospital:pharmacy-webapi:tag"}
 - name: xmikova/wac-fe
   newName: xmikova/wac-fe # {"$imagepolicy":  "wac-hospital:pharmacy-ufe:name"}
-  newTag: main.20260421.2048 # {"$imagepolicy": "wac-hospital:pharmacy-ufe:tag"}
+  newTag: main.20260501.0759 # {"$imagepolicy": "wac-hospital:pharmacy-ufe:tag"}
