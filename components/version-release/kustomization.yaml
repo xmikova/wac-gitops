@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: xmikova/wac-fe
   newName: xmikova/wac-fe
-  newTag: latest
+  newTag: 1.0.0
 - name: xmikova/wac-be
   newName: xmikova/wac-be
-  newTag: latest
+  newTag: 1.0.0
