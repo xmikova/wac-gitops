@@ -2,10 +2,10 @@
 
 ### Nasadenie do spoločného klastra na Azure: 5 bodov
 
-- [ ] Funkčný FE komponent
-- [ ] Funkčnosť celej aplikácie (perzistencia)
+- [x] Funkčný FE komponent
+- [x] Funkčnosť celej aplikácie (perzistencia)
 
 ### CI/CD – Flux: 6 bodov
 
-- [ ] Existencia buildov a releasov a ich úspešnosť
-- [ ] Docker push súčasťou CI
+- [x] Existencia buildov a releasov a ich úspešnosť
+- [x] Docker push súčasťou CI
